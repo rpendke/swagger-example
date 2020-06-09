@@ -1,8 +1,8 @@
 {
-"serviceName": "artifact",
-"serviceGroup": "Examples",
-"servicePort": 4100,
-"serviceVersion": "1",
+"serviceName": "artifactGAiA",
+"serviceGroup": "ExamplesGAiA",
+"servicePort": 4200,
+"serviceVersion": "2",
 "description": "This is the decryption of your service",
 "tags": [
 "tag1",
