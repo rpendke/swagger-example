@@ -1,0 +1,45 @@
+{
+serviceName: "artifact",
+serviceGroup: "Examples",
+servicePort: 4100,
+serviceVersion: "1",
+description: "This is the decryption of your service",
+tags: [
+"tag1",
+"tag2"
+],
+attributes: {
+att1: [
+"att1.1",
+"att1.2"
+],
+att2: [
+"att2.1",
+"att2.2"
+]
+},
+program: [
+"soajs"
+],
+swaggerFilename: "/doc/swagger.yml",
+maintenance: {
+port: {
+type: "inherit"
+},
+readiness: "/heartbeat"
+},
+type: "service",
+prerequisites: {
+cpu: " ",
+memory: " "
+},
+requestTimeout: 30,
+requestTimeoutRenewal: 5,
+extKeyRequired: true,
+oauth: true,
+urac: true,
+urac_Profile: true,
+urac_ACL: false,
+tenant_Profile: false,
+provision_ACL: false
+}
