@@ -21,7 +21,7 @@ att2: [
 program: [
 "soajs"
 ],
-swaggerFilename: "/swagger-server/src/main/resources/swagger.yml",
+swaggerFilename: "/doc/swagger.yml",
 maintenance: {
 port: {
 type: "inherit"
