@@ -1,8 +1,8 @@
 {
-"serviceName": "artifact11",
-"serviceGroup": "Examples11",
-"servicePort": 4200,
-"serviceVersion": "2",
+"serviceName": "artifact",
+"serviceGroup": "Examples",
+"servicePort": 4100,
+"serviceVersion": "1",
 "description": "This is the decryption of your service",
 "tags": [
 "tag1",
